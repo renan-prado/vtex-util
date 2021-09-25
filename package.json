@@ -1,0 +1,26 @@
+{
+  "name": "vtex-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "SearchControl.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npx mocha -w --parallel test/**/**/*.test.js",
+    "test:cov": "npx nyc npx mocha --parallel test/**/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "Renan Prado <r.nanpr@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@sinonjs/referee-sinon": "^10.1.0",
+    "chai": "^4.3.4",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
+  }
+}
