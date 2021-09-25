@@ -34,12 +34,12 @@ class BuildSearch {
 
   // Categories
 
-  set categories(arg) {
+  categories(arg) {
     this[kCategory].set(arg);
     return this;
   }
 
-  get categories() {
+  getCategories() {
     return this[kCategory].result;
   }
 

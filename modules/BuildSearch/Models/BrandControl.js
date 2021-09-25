@@ -33,7 +33,7 @@ class BrandControl {
     }
     throwError('ParameterTypeError', {
       origin: this.origin,
-      method: 'brand',
+      method: 'hasBrands',
       expectedTypes: ['string', 'array'],
     });
     return false;
